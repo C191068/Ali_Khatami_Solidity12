@@ -1,5 +1,5 @@
 
-## Ali_Khatami_Solidity12(learning from mthe video of Pattrick Collins)
+## Ali_Khatami_Solidity12(learning from the video of Pattrick Collins)
 
 ### SafeMath,Overflow,Checking and the unchecked keyword
 
