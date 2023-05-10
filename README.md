@@ -55,7 +55,7 @@ This happens because prior to version ```0.8``` of solidity , unsigned integers 
 ```unchecked``` means if we pass the upper limit of the  number it would just start back from the lowest number it could be <br>
 
 So one of the most popular library was the above SafeMath library of the above code was basically use to make sure that we are not crossing the maximaum limt <br>
-of an unsigned integer number<br>
+of an uint256 number<br>
 
 
 
