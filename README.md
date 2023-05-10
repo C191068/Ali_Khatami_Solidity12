@@ -54,6 +54,9 @@ the clicking the blue color ```largeNumber``` button instead of getting result `
 This happens because prior to version ```0.8``` of solidity , unsigned integers and integers ran on thsi concept of being ```unchecked``` <br>
 ```unchecked``` means if we pass the upper limit of the  number it would just start back from the lowest number it could be <br>
 
+So one of the most popular library was the above SafeMath library of the above code was basically use to make sure that we are not crossing the maximaum limt <br>
+of an unsigned integer number<br>
+
 
 
 
