@@ -88,7 +88,7 @@ contract akrkSafeMathTester{
 Figure4: and thus now it is not showing any error when we click the ```sum``` button after clicking the ```largeNumber``` button <br>
 
 
-```unchecked``` makes our gas a little bit more efficient <br>
+```unchecked``` keyword makes our gas a little bit more efficient <br>
 
 
 
