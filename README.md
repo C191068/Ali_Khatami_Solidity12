@@ -60,6 +60,10 @@ of an uint256 number<br>
 ![e8](https://github.com/C191068/Ali_Khatami_Solidity12/assets/89090776/fc5c31f0-3824-4d0a-ba83-ed81d3dfac10)
 Figure3: after clicking the ```largeNumber``` button when we click the ```sum``` button it gives error at the console<br>
 
+because at solidity version 0.8.0 and above it can automatically checked whether we are doing overflow or underflow on avariable<br>
+
+
+
 
 
 
