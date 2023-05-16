@@ -62,6 +62,8 @@ Figure3: after clicking the ```largeNumber``` button when we click the ```sum```
 
 because at solidity version 0.8.0 and above it can automatically checked whether we are doing overflow or underflow on avariable<br>
 
+on the other hand version 0.76 and below can't automatically checked whether we are doing overflow or underflow on avariable<br>
+
 to revert back to the unchecked version we have done following changes in the code:
 
 ```
