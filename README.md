@@ -62,6 +62,28 @@ Figure3: after clicking the ```largeNumber``` button when we click the ```sum```
 
 because at solidity version 0.8.0 and above it can automatically checked whether we are doing overflow or underflow on avariable<br>
 
+to revert back to the unchecked version we have done following changes in the code:
+
+```
+//SPDX-License-Identifier:MIT
+
+pragma solidity ^0.8.0;
+
+contract akrkSafeMathTester{
+    uint8 public largeNumber = 255 ;
+
+    function sum() public{
+
+        unchecked{largeNumber= largeNumber +1;}
+
+    }
+}
+```
+
+
+
+![e9](https://github.com/C191068/Ali_Khatami_Solidity12/assets/89090776/4cdb776f-188b-44ce-a156-0e558066d03f)
+Figure4: and thus now it is not showing any error when we click the ```sum``` button after clicking the ```largeNumber``` button <br>
 
 
 
